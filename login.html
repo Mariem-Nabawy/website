@@ -40,8 +40,17 @@
     <section id="register" style="display: none;">
         <h2>Register</h2>
         <form class="custom-form" id="register-form">
+
+            <input type="text" id="national-id" name="national-id" placeholder="Enter your national ID" required>
             <input type="text" id="full-name" placeholder="Full Name" required>
             <input type="email" placeholder="Email" required>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number" required>
+            <select id="subscription" name="subscription" required>
+                <option value="1-month">1 Month</option>
+                <option value="3-months">3 Months</option>
+                <option value="6-months">6 Months</option>
+                <option value="12-months">12 Months</option>
+            </select>
             <input type="password" placeholder="Password" required>
             <button type="submit">Register</button>
         </form>
